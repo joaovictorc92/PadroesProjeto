@@ -5,7 +5,7 @@ import java.math.BigDecimal;
 import br.com.padroesprojeto.builder.Imposto;
 
 public class ImpostoPessoaFisica implements Imposto {
-
+	
 	@Override
 	public BigDecimal calcularImposto(BigDecimal valor) {
 		

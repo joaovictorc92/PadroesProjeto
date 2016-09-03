@@ -7,7 +7,7 @@ import java.util.Date;
 public abstract class NotaFiscal {
 	private int numero;
 	private Date dataEmissao;
-	private Collection<IProduto> listaProdutos;
+	protected Collection<IProduto> listaProdutos;
 	
 	public abstract Imposto criarImposto();
 	
@@ -37,7 +37,7 @@ public abstract class NotaFiscal {
 	public BigDecimal getValorTotal(){
 		BigDecimal valor =  new BigDecimal(0);
 		for(IProduto produto: listaProdutos ){
-			valor.add(produto.getValor().multiply(new BigDecimal(produto.getQuantidade())));
+			valor = valor.add(produto.getValor().multiply(new BigDecimal(produto.getQuantidade())));
 		}
 		return valor;
 	}

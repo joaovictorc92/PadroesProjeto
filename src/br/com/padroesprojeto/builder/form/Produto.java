@@ -10,6 +10,12 @@ public class Produto implements IProduto{
 	private int quantidade;
 	private BigDecimal valor;
 	
+	public Produto(String nome,int quantidade,BigDecimal valor){
+		this.nome = nome;
+		this.quantidade = quantidade;
+		this.valor = valor;
+	}
+	
 	@Override
 	public String getNome() {
 		return nome;
