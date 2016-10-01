@@ -18,5 +18,5 @@ public class Pedido {
 
 	public void setValor(double valor) {
 		this.valor = valor;
-	}
+	} 
 }
