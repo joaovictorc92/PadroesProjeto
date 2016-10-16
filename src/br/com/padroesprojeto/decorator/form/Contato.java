@@ -1,5 +1,8 @@
 package br.com.padroesprojeto.decorator.form;
 
+import javax.xml.bind.annotation.XmlRootElement;
+
+@XmlRootElement(name="contato")
 public class Contato {
 	private int codigo;
 	private String nome;

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<contatos>
+    <contato>
+        <codigo>1</codigo>
+        <nome>Marcos</nome>
+        <telefone>9127-4743</telefone>
+    </contato>
+    <contato>
+        <codigo>2</codigo>
+        <nome>Jose</nome>
+        <telefone>8824-4685</telefone>
+    </contato>
+    <contato>
+        <codigo>4</codigo>
+        <nome>Pedro Paulo</nome>
+        <telefone>21 9999 9999</telefone>
+    </contato>
+    <contato>
+        <codigo>4</codigo>
+        <nome>Pedro Paulo</nome>
+        <telefone>21 9999 9999</telefone>
+    </contato>
+    <contato>
+        <codigo>5</codigo>
+        <nome>Paulo Sergio</nome>
+        <telefone>21 9999 9999</telefone>
+    </contato>
+    <contato>
+        <codigo>4</codigo>
+        <nome>Pedro Paulo</nome>
+        <telefone>21 9999 9999</telefone>
+    </contato>
+</contatos>
